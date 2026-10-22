@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+data/
+outputs/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Keep the released checkpoint tracked; ignore other weight files.
+*.pth
+!densenet121_breast_cancer_high_recall.pth
